@@ -33,5 +33,8 @@ https://chrisjkeeney.shinyapps.io/DiceGame/
 The source Code can be found here:
 https://github.com/chrisjkeeney/DiceGame
 
+Presentation can be found here: 
+http://rpubs.com/chrisjkeeney/DiceGame
+
 Keep rollin' on!
 
