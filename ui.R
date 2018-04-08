@@ -34,7 +34,20 @@ shinyUI(fluidPage(
     ),
     
     # Show a plot of the generated distribution
-    mainPanel(
+    mainPanel(h6("The object of Yahtzee is to obtain the highest score from throwing 5 dice. The game consists of 13 rounds. 
+                  In each round, you roll the dice and then score the roll in one of 13 categories. You must score once in each category. 
+                  The score is determined by a different rule for each category.
+                  The game ends once all 13 categories have been scored. 
+                  If you score in the upper section of the table, your score is the total of the specified die face.
+                  For 3 of a kind you must have at least 3 of the same die faces. You score the total of all the dice. For 4 of a kind you would need 4 die faces the same.
+                  A Straight is a sequence of consecutive die faces, where a small straight is 4 consecutive faces, and a large straight 5 consecutive faces.
+                  Small straights score 30 and a large 40 points.
+                  A Full House is where you have 3 of a kind and 2 of a kind. Full houses score 25 points.
+                  A Yahtzee is 5 of a kind and scores 50 points, although you may elect NOT to score it as a yahtzee, instead choosing to take it as a top row score and safegaurd you bonus.
+                  You can roll anything and be able to put it in the Misc category. You score the total of the die faces.
+
+
+"),
        h4(textOutput("p1one")),
        h4(textOutput("p1two")),
        h4(textOutput("p1three")),
