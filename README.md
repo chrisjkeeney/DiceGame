@@ -28,7 +28,7 @@ do math or wondering if your friends are cheating!
 ## Slide with Plot
 
 Want to try it out? Find the app here: 
-https://chrisjkeeney.shinyapps.io/DiceGame/
+https://chrisjkeeney.shinyapps.io/Yahtzee/
 
 The source Code can be found here:
 https://github.com/chrisjkeeney/DiceGame
